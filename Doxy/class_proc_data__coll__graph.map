@@ -1,0 +1,5 @@
+<map id="ProcData" name="ProcData">
+<area shape="rect" id="node1" title="abstract class for proccessing data and storing it" alt="" coords="7,608,111,715"/>
+<area shape="rect" id="node2" href="$class_vector.html" title=" " alt="" coords="5,307,113,545"/>
+<area shape="rect" id="node3" href="$class_vector.html" title="Minimal vector class. wraps the STL vector inside." alt="" coords="7,5,112,244"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="CalcStdDev" name="CalcStdDev">
+<area shape="rect" id="node1" title="calculates the standard deviation of the values" alt="" coords="5,81,95,108"/>
+<area shape="rect" id="node2" href="$_math_8h.html#a7db8068b6a61a7245fb4d405ab925851" title="Calculates the mean of the values." alt="" coords="143,56,223,83"/>
+<area shape="rect" id="node4" href="$class_vector.html#a1baa1bf2addfca8a6ad84b8e6cc3c06e" title="Getter for length." alt="" coords="395,56,523,83"/>
+<area shape="rect" id="node3" href="$_math_8h.html#a915c800bfa96e00de43156d1127885eb" title="Calc the total of all values." alt="" coords="271,5,347,32"/>
+</map>

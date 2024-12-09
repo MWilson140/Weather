@@ -1,0 +1,8 @@
+<map id="WindProcData::NGetData" name="WindProcData::NGetData">
+<area shape="rect" id="node1" title="Fills the contained vector with data." alt="" coords="323,73,493,100"/>
+<area shape="rect" id="node2" href="$_i_o_functs_8h.html#a3d4c02c307e8000ff56c77731b7406c3" title="Handles the menu 1 option." alt="" coords="213,22,275,49"/>
+<area shape="rect" id="node5" href="$_i_o_functs_8h.html#a88f93883b2cfdcbd1a77fdf4268b823a" title="Handles the menu 3 option." alt="" coords="104,124,165,150"/>
+<area shape="rect" id="node6" href="$_i_o_functs_8h.html#a0ad91180db806955fbd23c6c27f5d537" title="Handles the menu 4 option." alt="" coords="213,73,275,100"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,48,56,74"/>
+<area shape="rect" id="node4" href="$_client_8h.html#a0a82e74626b65b077a1cfc3d481f6e18" title="USed for displaying and handling the menu options." alt="" coords="107,22,162,49"/>
+</map>

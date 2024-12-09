@@ -1,0 +1,14 @@
+<map id="Menu3" name="Menu3">
+<area shape="rect" id="node1" title="Handles the menu 3 option." alt="" coords="5,107,67,133"/>
+<area shape="rect" id="node2" href="$class_n_d_c.html#a7ac6ce0dd516a0421a418fddae2f14fd" title="getter for year (key)" alt="" coords="149,5,251,32"/>
+<area shape="rect" id="node3" href="$class_rad_proc_data.html#a87bfe4394ad92770883f83834e30c90c" title="Fills the contained vector with data." alt="" coords="118,56,282,83"/>
+<area shape="rect" id="node7" href="$class_wind_proc_data.html#aa8e3fc099e89a46061b81618a2a75c70" title="Fills the contained vector with data." alt="" coords="115,157,285,184"/>
+<area shape="rect" id="node8" href="$class_air_proc_data.html#aa53f782b58efce14c92e90242b439a9f" title="Fills the contained vector with data." alt="" coords="121,107,279,133"/>
+<area shape="rect" id="node9" href="$_math_8h.html#a4a192150ebf97d46883ef7a340ca76bb" title="Calculates the pearson of two Vectors." alt="" coords="172,208,228,235"/>
+<area shape="rect" id="node4" href="$class_rad_proc_data.html#a1ef7247bd4bd43d76422124634d10c96" title="Converts n from W/m to KWh/m." alt="" coords="333,56,488,83"/>
+<area shape="rect" id="node5" href="$class_n_d_c.html#a0e3a9c66aa45395ca9591ae3d4049451" title=" " alt="" coords="361,157,461,184"/>
+<area shape="rect" id="node6" href="$class_vector.html#a90b87fdde0904a3c5ef4c97c74c562d4" title="Adds to the vector." alt="" coords="347,107,474,133"/>
+<area shape="rect" id="node10" href="$_math_8h.html#a7db8068b6a61a7245fb4d405ab925851" title="Calculates the mean of the values." alt="" coords="371,208,451,235"/>
+<area shape="rect" id="node12" href="$class_vector.html#a1baa1bf2addfca8a6ad84b8e6cc3c06e" title="Getter for length." alt="" coords="660,208,788,235"/>
+<area shape="rect" id="node11" href="$_math_8h.html#a915c800bfa96e00de43156d1127885eb" title="Calc the total of all values." alt="" coords="536,208,612,235"/>
+</map>

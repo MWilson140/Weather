@@ -1,0 +1,4 @@
+<map id="Date::DayCheck" name="Date::DayCheck">
+<area shape="rect" id="node1" title="Checks if the day input is valid." alt="" coords="5,5,123,32"/>
+<area shape="rect" id="node2" href="$class_date.html#a85789fefca227bcd9188b8358900b289" title="Checks if the year is a leap year." alt="" coords="171,5,283,32"/>
+</map>

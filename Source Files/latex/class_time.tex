@@ -1,0 +1,285 @@
+\hypertarget{class_time}{}\doxysection{Time Class Reference}
+\label{class_time}\index{Time@{Time}}
+
+
+Class for storing time values.  
+
+
+
+
+{\ttfamily \#include $<$Time.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_time_a4245e409c7347d1d671858962c2ca3b5}{Time}} ()
+\item 
+\mbox{\hyperlink{class_time_a9aa9dc096651d925a56c66baf0687d88}{Time}} (int s, int m, int h)
+\item 
+\mbox{\hyperlink{class_time_aa90303dd0454141b15ceb358d60795a4}{Time}} (const \mbox{\hyperlink{class_time}{Time}} \&T)
+\item 
+\mbox{\hyperlink{class_time_a1e92dbe963fa3cdd6bea207680f5f6d1}{$\sim$\+Time}} ()
+\item 
+\mbox{\hyperlink{class_time}{Time}} \& \mbox{\hyperlink{class_time_a311e95f645bd8febadb353b9e2705aad}{operator=}} (\mbox{\hyperlink{class_time}{Time}} \&t)
+\begin{DoxyCompactList}\small\item\em Assignment Operator. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_time_a9976203f82dd2a20fb09ba03a466e698}{Set\+Second}} (int n)
+\begin{DoxyCompactList}\small\item\em Second setter. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_time_a53582e9b9f6f0da1db2d3e9d11df04bc}{Get\+Second}} () const
+\begin{DoxyCompactList}\small\item\em Seconds getter. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_time_acddc828061629651d58271fad5c82f12}{Set\+Minute}} (int n)
+\begin{DoxyCompactList}\small\item\em Minute setter. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_time_a86302564cc0783b402dc5f0e137a43c1}{Get\+Minute}} () const
+\begin{DoxyCompactList}\small\item\em Minute getter. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_time_a66fc4f0c281efdcd7be0b5cbb4cf7970}{Set\+Hour}} (int n)
+\begin{DoxyCompactList}\small\item\em hour setter \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_time_aaf65e0dc73514ffab9b3dd643cef9bdb}{Get\+Hour}} () const
+\begin{DoxyCompactList}\small\item\em hour setter \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_time_a02ff2e88b5c585b586b340e68ff1a2ba}{Check\+Second}} (int n)
+\begin{DoxyCompactList}\small\item\em Checks the seconds input. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_time_aeff348e3632c972e5f9c1c20ed747f7b}{Check\+Minute}} (int n)
+\begin{DoxyCompactList}\small\item\em Checks the minute input. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_time_ac4e8831d3f4080f3beec3756d1070854}{Check\+Hour}} (int n)
+\begin{DoxyCompactList}\small\item\em Checks the Hours. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_time_a63c9e64c7b453e10ba0f7f28bfedbcbf}{second}}
+\item 
+int \mbox{\hyperlink{class_time_a6c2e13147da34803a9784aa2b8bf8da8}{minute}}
+\item 
+int \mbox{\hyperlink{class_time_a497d35aa44ea40706dbab08f7a31d069}{hour}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class for storing time values. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_time_a4245e409c7347d1d671858962c2ca3b5}\label{class_time_a4245e409c7347d1d671858962c2ca3b5}} 
+\index{Time@{Time}!Time@{Time}}
+\index{Time@{Time}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{Time()}{Time()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Time\+::\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_time_a9aa9dc096651d925a56c66baf0687d88}\label{class_time_a9aa9dc096651d925a56c66baf0687d88}} 
+\index{Time@{Time}!Time@{Time}}
+\index{Time@{Time}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{Time()}{Time()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Time\+::\+Time (\begin{DoxyParamCaption}\item[{int}]{s,  }\item[{int}]{m,  }\item[{int}]{h }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_time_aa90303dd0454141b15ceb358d60795a4}\label{class_time_aa90303dd0454141b15ceb358d60795a4}} 
+\index{Time@{Time}!Time@{Time}}
+\index{Time@{Time}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{Time()}{Time()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Time\+::\+Time (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_time}{Time}} \&}]{T }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_time_a1e92dbe963fa3cdd6bea207680f5f6d1}\label{class_time_a1e92dbe963fa3cdd6bea207680f5f6d1}} 
+\index{Time@{Time}!````~Time@{$\sim$Time}}
+\index{````~Time@{$\sim$Time}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{$\sim$Time()}{~Time()}}
+{\footnotesize\ttfamily Time\+::$\sim$\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_time_ac4e8831d3f4080f3beec3756d1070854}\label{class_time_ac4e8831d3f4080f3beec3756d1070854}} 
+\index{Time@{Time}!CheckHour@{CheckHour}}
+\index{CheckHour@{CheckHour}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{CheckHour()}{CheckHour()}}
+{\footnotesize\ttfamily void Time\+::\+Check\+Hour (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Checks the Hours. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & -\/ hours \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_time_aeff348e3632c972e5f9c1c20ed747f7b}\label{class_time_aeff348e3632c972e5f9c1c20ed747f7b}} 
+\index{Time@{Time}!CheckMinute@{CheckMinute}}
+\index{CheckMinute@{CheckMinute}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{CheckMinute()}{CheckMinute()}}
+{\footnotesize\ttfamily void Time\+::\+Check\+Minute (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Checks the minute input. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & -\/ minutes \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_time_a02ff2e88b5c585b586b340e68ff1a2ba}\label{class_time_a02ff2e88b5c585b586b340e68ff1a2ba}} 
+\index{Time@{Time}!CheckSecond@{CheckSecond}}
+\index{CheckSecond@{CheckSecond}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{CheckSecond()}{CheckSecond()}}
+{\footnotesize\ttfamily void Time\+::\+Check\+Second (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Checks the seconds input. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & -\/ seconds \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_time_aaf65e0dc73514ffab9b3dd643cef9bdb}\label{class_time_aaf65e0dc73514ffab9b3dd643cef9bdb}} 
+\index{Time@{Time}!GetHour@{GetHour}}
+\index{GetHour@{GetHour}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{GetHour()}{GetHour()}}
+{\footnotesize\ttfamily int Time\+::\+Get\+Hour (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+hour setter 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+must be inclusive between 0 and 23 
+\end{DoxyPrecond}
+\mbox{\Hypertarget{class_time_a86302564cc0783b402dc5f0e137a43c1}\label{class_time_a86302564cc0783b402dc5f0e137a43c1}} 
+\index{Time@{Time}!GetMinute@{GetMinute}}
+\index{GetMinute@{GetMinute}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{GetMinute()}{GetMinute()}}
+{\footnotesize\ttfamily int Time\+::\+Get\+Minute (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Minute getter. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & -\/ seconds \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+must be inclusive between 0 and 59 
+\end{DoxyPrecond}
+\mbox{\Hypertarget{class_time_a53582e9b9f6f0da1db2d3e9d11df04bc}\label{class_time_a53582e9b9f6f0da1db2d3e9d11df04bc}} 
+\index{Time@{Time}!GetSecond@{GetSecond}}
+\index{GetSecond@{GetSecond}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{GetSecond()}{GetSecond()}}
+{\footnotesize\ttfamily int Time\+::\+Get\+Second (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Seconds getter. 
+
+\begin{DoxyReturn}{Returns}
+int second value 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+must be inclusive between 0 and 59 
+\end{DoxyPrecond}
+\mbox{\Hypertarget{class_time_a311e95f645bd8febadb353b9e2705aad}\label{class_time_a311e95f645bd8febadb353b9e2705aad}} 
+\index{Time@{Time}!operator=@{operator=}}
+\index{operator=@{operator=}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_time}{Time}}\& Time\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_time}{Time}} \&}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Assignment Operator. 
+
+\mbox{\Hypertarget{class_time_a66fc4f0c281efdcd7be0b5cbb4cf7970}\label{class_time_a66fc4f0c281efdcd7be0b5cbb4cf7970}} 
+\index{Time@{Time}!SetHour@{SetHour}}
+\index{SetHour@{SetHour}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{SetHour()}{SetHour()}}
+{\footnotesize\ttfamily void Time\+::\+Set\+Hour (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+hour setter 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & -\/ seconds \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_time_acddc828061629651d58271fad5c82f12}\label{class_time_acddc828061629651d58271fad5c82f12}} 
+\index{Time@{Time}!SetMinute@{SetMinute}}
+\index{SetMinute@{SetMinute}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{SetMinute()}{SetMinute()}}
+{\footnotesize\ttfamily void Time\+::\+Set\+Minute (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Minute setter. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & -\/ seconds \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_time_a9976203f82dd2a20fb09ba03a466e698}\label{class_time_a9976203f82dd2a20fb09ba03a466e698}} 
+\index{Time@{Time}!SetSecond@{SetSecond}}
+\index{SetSecond@{SetSecond}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{SetSecond()}{SetSecond()}}
+{\footnotesize\ttfamily void Time\+::\+Set\+Second (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Second setter. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & -\/ seconds \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_time_a497d35aa44ea40706dbab08f7a31d069}\label{class_time_a497d35aa44ea40706dbab08f7a31d069}} 
+\index{Time@{Time}!hour@{hour}}
+\index{hour@{hour}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{hour}{hour}}
+{\footnotesize\ttfamily int Time\+::hour\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_time_a6c2e13147da34803a9784aa2b8bf8da8}\label{class_time_a6c2e13147da34803a9784aa2b8bf8da8}} 
+\index{Time@{Time}!minute@{minute}}
+\index{minute@{minute}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{minute}{minute}}
+{\footnotesize\ttfamily int Time\+::minute\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_time_a63c9e64c7b453e10ba0f7f28bfedbcbf}\label{class_time_a63c9e64c7b453e10ba0f7f28bfedbcbf}} 
+\index{Time@{Time}!second@{second}}
+\index{second@{second}!Time@{Time}}
+\doxysubsubsection{\texorpdfstring{second}{second}}
+{\footnotesize\ttfamily int Time\+::second\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Time/\mbox{\hyperlink{_time_8h}{Time.\+h}}\item 
+Time/\mbox{\hyperlink{_time_8cpp}{Time.\+cpp}}\end{DoxyCompactItemize}

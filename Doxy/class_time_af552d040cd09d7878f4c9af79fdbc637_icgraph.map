@@ -1,0 +1,7 @@
+<map id="Time::CheckHour" name="Time::CheckHour">
+<area shape="rect" id="node1" title="Checks the hour input." alt="" coords="485,31,608,57"/>
+<area shape="rect" id="node2" href="$class_time.html#a700114d9d8fc19586834a55f4b69d27c" title="hour setter" alt="" coords="332,5,437,32"/>
+<area shape="rect" id="node5" href="$class_time.html#a371609b8e55bc15a54cb2527c5bff8c4" title="Construtor with paramaters." alt="" coords="341,56,428,83"/>
+<area shape="rect" id="node3" href="$class_time.html#ab4dc6b8c7e10bed74c221e4cce92a30f" title="Sets using a string input." alt="" coords="139,5,284,32"/>
+<area shape="rect" id="node4" href="$_i_o_functs_8h.html#a84d745006cf95147e828c8f9fcaefc93" title="Reads the data from the files." alt="" coords="5,5,91,32"/>
+</map>

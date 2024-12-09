@@ -1,0 +1,13 @@
+<map id="Menu1" name="Menu1">
+<area shape="rect" id="node1" title="Handles the menu 1 option." alt="" coords="5,157,67,184"/>
+<area shape="rect" id="node2" href="$_math_8h.html#a7db8068b6a61a7245fb4d405ab925851" title="Calculates the mean of the values." alt="" coords="357,56,437,83"/>
+<area shape="rect" id="node5" href="$_math_8h.html#ad238201486108ae58ef135348a535877" title="calculates the standard deviation of the values" alt="" coords="155,107,245,133"/>
+<area shape="rect" id="node6" href="$class_n_d_c.html#a478e7b6c86b771c3763fd3b3a6098951" title="Checks if the map is empty Helper method for the map." alt="" coords="135,157,265,184"/>
+<area shape="rect" id="node7" href="$class_wind_proc_data.html#aa8e3fc099e89a46061b81618a2a75c70" title="Fills the contained vector with data." alt="" coords="115,208,285,235"/>
+<area shape="rect" id="node10" href="$_io_functs_8cpp.html#a7c19281d565d3539ea7b02ba55bd0a57" title="Gets a string month from the user." alt="" coords="157,259,243,285"/>
+<area shape="rect" id="node3" href="$_math_8h.html#a915c800bfa96e00de43156d1127885eb" title="Calc the total of all values." alt="" coords="508,5,584,32"/>
+<area shape="rect" id="node4" href="$class_vector.html#a1baa1bf2addfca8a6ad84b8e6cc3c06e" title="Getter for length." alt="" coords="632,56,760,83"/>
+<area shape="rect" id="node8" href="$class_n_d_c.html#a0e3a9c66aa45395ca9591ae3d4049451" title=" " alt="" coords="347,157,447,184"/>
+<area shape="rect" id="node9" href="$class_vector.html#a90b87fdde0904a3c5ef4c97c74c562d4" title="Adds to the vector." alt="" coords="333,208,460,235"/>
+<area shape="rect" id="node11" href="$_client_8cpp.html#a6b9fb6d6fcc7846df23ce8aed1669277" title="Converts a string month to the int value." alt="" coords="353,259,440,285"/>
+</map>

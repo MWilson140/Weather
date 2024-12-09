@@ -1,0 +1,15 @@
+<map id="Menu4" name="Menu4">
+<area shape="rect" id="node1" title="Handles the menu 4 option." alt="" coords="5,218,67,245"/>
+<area shape="rect" id="node2" href="$_math_8h.html#a7db8068b6a61a7245fb4d405ab925851" title="Calculates the mean of the values." alt="" coords="357,66,437,93"/>
+<area shape="rect" id="node3" href="$_math_8h.html#a915c800bfa96e00de43156d1127885eb" title="Calc the total of all values." alt="" coords="508,16,584,42"/>
+<area shape="rect" id="node5" href="$class_rad_proc_data.html#ac5ce9641f939c3c88fce09cb4a541064" title="Converts n from W/m to KWh/m." alt="" coords="123,168,277,194"/>
+<area shape="rect" id="node7" href="$_math_8h.html#ad238201486108ae58ef135348a535877" title="calculates the standard deviation of the values" alt="" coords="155,117,245,144"/>
+<area shape="rect" id="node8" href="$class_vector.html#ac1bf38c2a42e02f6ff9ca99417eadff2" title="Empties the array." alt="" coords="147,218,253,245"/>
+<area shape="rect" id="node9" href="$class_vector.html#a48d21ed21b9f0993a71fe511a8354a10" title="checks if the vector is empty" alt="" coords="142,269,258,296"/>
+<area shape="rect" id="node10" href="$class_rad_proc_data.html#a6e089a2d7a9fbd8f3f4d5aa987eaea5b" title="Fills the contained vector with data." alt="" coords="118,320,282,346"/>
+<area shape="rect" id="node12" href="$class_wind_proc_data.html#a69d669f1d5cddec22a0954dffdf7c1c0" title="Fills the contained vector with data." alt="" coords="115,370,285,397"/>
+<area shape="rect" id="node13" href="$class_air_proc_data.html#aa53f782b58efce14c92e90242b439a9f" title="Fills the contained vector with data." alt="" coords="121,421,279,448"/>
+<area shape="rect" id="node4" href="$class_vector.html#a1baa1bf2addfca8a6ad84b8e6cc3c06e" title="Getter for length." alt="" coords="632,92,760,118"/>
+<area shape="rect" id="node6" href="$class_vector.html#a90b87fdde0904a3c5ef4c97c74c562d4" title="Adds to the vector." alt="" coords="333,320,460,346"/>
+<area shape="rect" id="node11" href="$class_n_d_c.html#a0e3a9c66aa45395ca9591ae3d4049451" title="getter for the Map" alt="" coords="347,370,447,397"/>
+</map>

@@ -1,0 +1,43 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,435,56,462"/>
+<area shape="rect" id="node2" href="$class_b_s_t.html#a3f35d0e3a83c47849b997e7a259b3ded" title=" " alt="" coords="104,308,219,335"/>
+<area shape="rect" id="node3" href="$class_vector.html#ac1bf38c2a42e02f6ff9ca99417eadff2" title="Empties the array." alt="" coords="477,562,584,588"/>
+<area shape="rect" id="node4" href="$_client_8cpp.html#afe9e1081a63678216808cff6e2d579b1" title="Gets all the file names from a source file." alt="" coords="127,460,195,487"/>
+<area shape="rect" id="node6" href="$_client_8cpp.html#a8fc23d1438ba261026e5249f2e1131cc" title="USed for displaying and handling the menu options." alt="" coords="134,840,189,867"/>
+<area shape="rect" id="node34" href="$_client_8cpp.html#a3400e385adf2489936c6ada8f0a0ce8d" title="Organises the files in chronological order." alt="" coords="281,410,383,436"/>
+<area shape="rect" id="node35" href="$_io_functs_8cpp.html#ab447c05fc5948cf154df3fbe4f6f68e3" title="Reads the data from the files." alt="" coords="292,207,372,234"/>
+<area shape="rect" id="node5" href="$class_vector.html#a90b87fdde0904a3c5ef4c97c74c562d4" title="Adds to the vector." alt="" coords="664,638,791,664"/>
+<area shape="rect" id="node7" href="$class_n_d_c.html#a58d0ec926ac3fb24d2e17c86e2df1b0d" title="Empties the map helper method for the map function clear." alt="" coords="473,308,588,335"/>
+<area shape="rect" id="node8" href="$class_collector.html#ab291d2e648fbc91abbe541fc9b9358e9" title=" " alt="" coords="267,1296,397,1323"/>
+<area shape="rect" id="node11" href="$class_b_s_t.html#acc64d7d87cb07904641785c7c8beba53" title="In Order Traversal of the BST." alt="" coords="273,1043,391,1070"/>
+<area shape="rect" id="node12" href="$_io_functs_8cpp.html#ae8c6ffd76a9200ee5e8f7ec567c1b22a" title="Handles the menu 1 option." alt="" coords="301,942,363,968"/>
+<area shape="rect" id="node19" href="$_io_functs_8cpp.html#a7c19281d565d3539ea7b02ba55bd0a57" title="Gets a string month from the user." alt="" coords="488,1271,573,1298"/>
+<area shape="rect" id="node20" href="$_io_functs_8cpp.html#a2548f0d140e5809572bd5f021f1d80c9" title="Handles the menu 2 option." alt="" coords="301,891,363,918"/>
+<area shape="rect" id="node22" href="$_client_8cpp.html#a20329dec3f03680aac360f1723777178" title="Handles the menu 3 option." alt="" coords="301,790,363,816"/>
+<area shape="rect" id="node26" href="$_io_functs_8cpp.html#a4d6a011987c676ac172bf67e6063b44e" title="Handles the menu 4 option." alt="" coords="301,840,363,867"/>
+<area shape="rect" id="node30" href="$_io_functs_8cpp.html#ab13e858612c64eeef73aff1d8a03945e" title="Prints the menu options." alt="" coords="293,638,371,664"/>
+<area shape="rect" id="node31" href="$class_n_d_c.html#ab53a509240e55a09c26ecbb2aefbb962" title="Setter for yeclassar (key)" alt="" coords="281,688,383,715"/>
+<area shape="rect" id="node32" href="$class_b_s_t.html#a5d14e98dce6edb0bd39d1ef59ccdf7ed" title="smart Search of the BST" alt="" coords="267,739,397,766"/>
+<area shape="rect" id="node33" href="$_io_functs_8cpp.html#afc41b3ae1818f85f0204b458578e63cf" title="Gets a int year from the user." alt="" coords="294,992,370,1019"/>
+<area shape="rect" id="node9" href="$class_n_d_c.html#aa1e65f87d728b88e1b66b192e5ec481f" title=" " alt="" coords="480,1322,581,1348"/>
+<area shape="rect" id="node10" href="$class_n_d_c.html#a0e3a9c66aa45395ca9591ae3d4049451" title="getter for the Map" alt="" coords="677,866,777,892"/>
+<area shape="rect" id="node13" href="$_math_8h.html#a7db8068b6a61a7245fb4d405ab925851" title="Calculates the mean of the values." alt="" coords="839,1068,919,1095"/>
+<area shape="rect" id="node16" href="$_math_8h.html#ad238201486108ae58ef135348a535877" title="calculates the standard deviation of the values" alt="" coords="486,1119,575,1146"/>
+<area shape="rect" id="node17" href="$class_n_d_c.html#a7ac6ce0dd516a0421a418fddae2f14fd" title="getter for year (key)" alt="" coords="479,916,582,943"/>
+<area shape="rect" id="node18" href="$class_wind_proc_data.html#a69d669f1d5cddec22a0954dffdf7c1c0" title="Fills the contained vector with data." alt="" coords="445,967,616,994"/>
+<area shape="rect" id="node14" href="$_math_8h.html#a915c800bfa96e00de43156d1127885eb" title="Calc the total of all values." alt="" coords="967,967,1043,994"/>
+<area shape="rect" id="node15" href="$class_vector.html#a1baa1bf2addfca8a6ad84b8e6cc3c06e" title="Getter for length." alt="" coords="1091,688,1219,715"/>
+<area shape="rect" id="node21" href="$class_air_proc_data.html#aa53f782b58efce14c92e90242b439a9f" title="Fills the contained vector with data." alt="" coords="452,866,609,892"/>
+<area shape="rect" id="node23" href="$_io_functs_8cpp.html#ac82a7e1cf6b97b791cf349d7bab1d266" title="Organises the files in chronological order." alt="" coords="487,511,574,538"/>
+<area shape="rect" id="node24" href="$_math_8h.html#a4a192150ebf97d46883ef7a340ca76bb" title="Calculates the pearson of two Vectors." alt="" coords="699,587,755,614"/>
+<area shape="rect" id="node25" href="$_math_8h.html#a42c1bcd8dba2778f649ebc670d449501" title="Rounds a number to two decimal places." alt="" coords="849,638,908,664"/>
+<area shape="rect" id="node27" href="$class_rad_proc_data.html#ac5ce9641f939c3c88fce09cb4a541064" title="Converts n from W/m to KWh/m." alt="" coords="453,663,608,690"/>
+<area shape="rect" id="node28" href="$class_vector.html#a48d21ed21b9f0993a71fe511a8354a10" title="checks if the vector is empty" alt="" coords="473,815,589,842"/>
+<area shape="rect" id="node29" href="$class_rad_proc_data.html#a6e089a2d7a9fbd8f3f4d5aa987eaea5b" title="Fills the contained vector with data." alt="" coords="449,714,613,740"/>
+<area shape="rect" id="node36" href="$class_n_d_c.html#aea95193d8bee99b3ec7a10633169b49a" title="Adds a key pair to the map helper method for the insert of the map." alt="" coords="478,156,583,183"/>
+<area shape="rect" id="node38" href="$class_b_s_t.html#a4aedb3e325a7fe7e8e16a6e516ca06cc" title="Inserting into the bst." alt="" coords="487,55,574,82"/>
+<area shape="rect" id="node39" href="$_io_functs_8cpp.html#a7fc93050cd3257354c968fe9e5cb741b" title=" " alt="" coords="489,106,573,132"/>
+<area shape="rect" id="node40" href="$struct_input_config.html#a5f866199ffed2e2295280634ac366b0b" title="Sets the desired input format." alt="" coords="459,258,602,284"/>
+<area shape="rect" id="node41" href="$struct_input_config.html#ab2ff739f3ccad43d30d19ea76ce7c893" title="Sets the key." alt="" coords="462,207,599,234"/>
+<area shape="rect" id="node37" href="$class_date.html#ad79ce504482f317ddcfdc4ecad77671f" title="Getter for year." alt="" coords="675,156,780,183"/>
+</map>

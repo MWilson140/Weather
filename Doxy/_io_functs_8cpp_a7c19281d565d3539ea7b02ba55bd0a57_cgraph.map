@@ -1,0 +1,4 @@
+<map id="UserMonth" name="UserMonth">
+<area shape="rect" id="node1" title="Gets a string month from the user." alt="" coords="5,5,91,32"/>
+<area shape="rect" id="node2" href="$_client_8cpp.html#a6b9fb6d6fcc7846df23ce8aed1669277" title="Converts a string month to the int value." alt="" coords="139,5,225,32"/>
+</map>

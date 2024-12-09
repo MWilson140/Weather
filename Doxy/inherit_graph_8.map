@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_proc_data.html" title="abstract class for proccessing data and storing it" alt="" coords="5,56,81,83"/>
+<area shape="rect" id="node2" href="$class_air_proc_data.html" title="Concrete class for Ambient Air Temperature." alt="" coords="137,5,229,32"/>
+<area shape="rect" id="node3" href="$class_rad_proc_data.html" title="Concrete class for Solar Radiation data." alt="" coords="133,56,232,83"/>
+<area shape="rect" id="node4" href="$class_wind_proc_data.html" title="Concrete class for wind data." alt="" coords="129,107,236,133"/>
+</map>

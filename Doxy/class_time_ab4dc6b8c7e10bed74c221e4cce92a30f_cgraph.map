@@ -1,0 +1,7 @@
+<map id="Time::SetUsingString" name="Time::SetUsingString">
+<area shape="rect" id="node1" title="Sets using a string input." alt="" coords="5,31,151,57"/>
+<area shape="rect" id="node2" href="$class_time.html#a700114d9d8fc19586834a55f4b69d27c" title="hour setter" alt="" coords="205,5,310,32"/>
+<area shape="rect" id="node4" href="$class_time.html#a32b6437f5bfada6a3afea94bfd2356eb" title="Minute setter." alt="" coords="199,56,316,83"/>
+<area shape="rect" id="node3" href="$class_time.html#af552d040cd09d7878f4c9af79fdbc637" title="Checks the hour input." alt="" coords="370,5,493,32"/>
+<area shape="rect" id="node5" href="$class_time.html#a78d87c653783c626c31dd0919c49d03c" title="Checks the minute input." alt="" coords="364,56,499,83"/>
+</map>

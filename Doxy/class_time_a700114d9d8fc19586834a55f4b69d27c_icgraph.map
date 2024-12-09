@@ -1,0 +1,5 @@
+<map id="Time::SetHour" name="Time::SetHour">
+<area shape="rect" id="node1" title="hour setter" alt="" coords="332,5,437,32"/>
+<area shape="rect" id="node2" href="$class_time.html#ab4dc6b8c7e10bed74c221e4cce92a30f" title="Sets using a string input." alt="" coords="139,5,284,32"/>
+<area shape="rect" id="node3" href="$_i_o_functs_8h.html#a84d745006cf95147e828c8f9fcaefc93" title="Reads the data from the files." alt="" coords="5,5,91,32"/>
+</map>

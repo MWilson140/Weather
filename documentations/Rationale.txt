@@ -1,0 +1,58 @@
+I assumed there would be duplicate data inside the files and data could be split among multiple files, and the approach I took was to eliminate the effect this had. 
+
+Data Structures Used
+BST
+Map
+Vector
+
+The Data
+The data is esentially pre sorted, assuming there are no errors inside the files, all the data inside the file are in chronological order. With this knowledge I did not want to use the BST to handle the bulk of the data. Doing so would cause long linked lists within the BST without hashing or randomizing the data. But doing so would then remove the order that the data comes in, and with all the desired functionality is based on certain years and/or months, keeping the data together is desireable. The BST could be auto leveled with this knowledge. This would cause the BST to go from long linked lists, to balanced, then once more data is read, another linked list would be formed until balanced again since the data is either older, or for another year entirely.
+
+Usage
+Map
+The map is used to store the individual data read in from the files. Stored using the MetaData (date and time), along with all the variables inside a struct with a variable for each data point. The map is inside a wrapper class to give it a key for the whole map(in this case, the year of the data) to store inside the BST. Operators such as <, > and == compairing against the class key have been provided to support functionality with the BST, since the map does not support these opperators. I decided to store a years worth of data inside each map, this is partialy to reduce errors in reading with the approach I took (a whole year being out of place is a lot less likely than a month) and for data retrieval. This does cause some processing when wanting a specific month of a year.
+
+Pros
+Fast, organised storage.
+Ability to pair the MetaData to the data.
+Ability to reject storing duplicate data.
+Cons
+The year is stored twice, inside the MetaData and inside the key. 
+
+BST
+The BST contains nodes of yearly data. Using a BST keeps the yearly data in chronological order, this is useful when data is needed to be printed or processed in order. The search function inside the BST is desirable when looking for a specific year. Using a BST as aposed to another map to store the information avoids having to dig deep for the data, the desired data is accessable. Since the BST is storing based on the key, and not the data itself inside each node, returning the data for modification would be acceptable, but this has potential to break the intrisic nature of the BST outside of this use case. The BST could be modified to a keyed BST, but this is not the approach I wanted to take.
+
+Pros
+Chronological processing of data
+Accessable data
+Cons
+Cannot add or edit data once inserted inside the BST
+Passing large amounts of data, each node contains a years worth of data
+Have to iterate over a years worth of data for a month
+	for instance, menu 4 will iterate over all the data 12 times, once for each year.
+	and menu 3 will iterate over each years of data to get the months data, then again over the copied data again for each month.
+
+Vector
+I used a vector to retrieve the data from the map. This was primarally for the math functions. Once the data was processed and stored, retrieving based on month removed the need for the meta data past retrieval. I was able to retrieve the data, perform the calculations and print all without the vector or functions needing to know which month exactly was stored inside the vector. 
+
+Classes used
+Time - Class to store time variables
+Date - Class to store date variables
+NDC - Map wrapper class. Contains a map of <MetaData and DailyData>
+MetaData - Combination of date and time classes.
+DailyData - Combines all raw data into one struct.
+Collector - Contains static variable and routine for data collection.
+InputConfig - Handles the organisation of input data
+
+Alternatives
+BST of months
+Storing months inside the BST is a viable approach. By adding another key to the wrapper class, a singular month of a specified or all years could be easily retrieved. This approach would eliminate the large amount of data I am passing when retrieving data, espically when only retrieving a months worth of data is desired. This would cause more actions on the BST when all of a month (menu 3) is desired, having to go to each node, check it then go to the next. 
+After implementing this for menu option 1 and 2, the process of storing and retrieving data for menu 2 was noticably different without the need to time. I believe this to be using the "insert" function to store all the necessary data into a map for the month approach. This could be circumvented by storing into a vector of maps, or vector of vectors of data (with each primary vector being a month). The reading of the files was comparable, but marginally slower due to the linked list BST. I decided not to continue with this approach. 
+
+Vector to store the information
+By processing the metadata first, then just storing the raw data inside a vector would avoid having to convert the data inside the map to a vector for calculations, but could cause problems in relation to storing duplicate data. Once inside the vector, the MetaData is lost. The data would need to be stored per month for data processing. The data could be stored inside a map for reading, then transfered to a vector for storage once all the related data is read.
+
+BST of data, inside map of months
+Struct containing metadata and data inside bst. avoids duplicates. would cause long linked lists without hashing or auto balancing. Hashing the data in this implementation would not cause a problem, but randomly hashing the values will not ensure that all the data gets saved, and no duplicates are saved. What if a hash matches because it is the same data and the same hash applied, or just happens to match, could check the value stored, what if that is the same value but different data point. Assuming there are no errors, the BST will still hold roughly 4500 entries.
+
+Assuming there will be duplicates, I could remove the checks in place for storing duplicates and allow duplicated data into the BST and merge once all the desired data is collected. However that will render the search function useless for data collection, only to validiate if the year or month is present. 

@@ -1,0 +1,6 @@
+<map id="RadProcData::NGetData" name="RadProcData::NGetData">
+<area shape="rect" id="node1" title="Fills the contained vector with data." alt="" coords="5,56,169,83"/>
+<area shape="rect" id="node2" href="$class_rad_proc_data.html#a1ef7247bd4bd43d76422124634d10c96" title="Converts n from W/m to KWh/m." alt="" coords="217,5,372,32"/>
+<area shape="rect" id="node3" href="$class_n_d_c.html#a0e3a9c66aa45395ca9591ae3d4049451" title=" " alt="" coords="245,56,345,83"/>
+<area shape="rect" id="node4" href="$class_vector.html#a90b87fdde0904a3c5ef4c97c74c562d4" title="Adds to the vector." alt="" coords="231,107,358,133"/>
+</map>

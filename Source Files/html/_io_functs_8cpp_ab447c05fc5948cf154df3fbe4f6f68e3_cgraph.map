@@ -1,0 +1,13 @@
+<map id="ReadFiles" name="ReadFiles">
+<area shape="rect" id="node1" title="Reads the data from the files." alt="" coords="5,183,85,209"/>
+<area shape="rect" id="node2" href="$class_n_d_c.html#aea95193d8bee99b3ec7a10633169b49a" title="Adds a key pair to the map helper method for the insert of the map." alt="" coords="152,5,257,32"/>
+<area shape="rect" id="node4" href="$class_n_d_c.html#a58d0ec926ac3fb24d2e17c86e2df1b0d" title="Empties the map helper method for the map function clear." alt="" coords="147,56,262,83"/>
+<area shape="rect" id="node5" href="$class_vector.html#a1baa1bf2addfca8a6ad84b8e6cc3c06e" title="Getter for length." alt="" coords="141,107,269,133"/>
+<area shape="rect" id="node6" href="$class_n_d_c.html#a7ac6ce0dd516a0421a418fddae2f14fd" title="getter for year (key)" alt="" coords="153,157,256,184"/>
+<area shape="rect" id="node7" href="$class_b_s_t.html#a4aedb3e325a7fe7e8e16a6e516ca06cc" title="Inserting into the bst." alt="" coords="161,208,248,235"/>
+<area shape="rect" id="node8" href="$_io_functs_8cpp.html#a7fc93050cd3257354c968fe9e5cb741b" title=" " alt="" coords="163,259,247,285"/>
+<area shape="rect" id="node9" href="$struct_input_config.html#a5f866199ffed2e2295280634ac366b0b" title="Sets the desired input format." alt="" coords="133,309,276,336"/>
+<area shape="rect" id="node11" href="$struct_input_config.html#ab2ff739f3ccad43d30d19ea76ce7c893" title="Sets the key." alt="" coords="136,360,273,387"/>
+<area shape="rect" id="node3" href="$class_date.html#ad79ce504482f317ddcfdc4ecad77671f" title="Getter for year." alt="" coords="335,5,440,32"/>
+<area shape="rect" id="node10" href="$class_vector.html#a90b87fdde0904a3c5ef4c97c74c562d4" title="Adds to the vector." alt="" coords="324,309,451,336"/>
+</map>

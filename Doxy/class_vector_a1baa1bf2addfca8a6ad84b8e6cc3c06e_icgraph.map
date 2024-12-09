@@ -1,0 +1,18 @@
+<map id="Vector::GetLength" name="Vector::GetLength">
+<area shape="rect" id="node1" title="Getter for length." alt="" coords="987,284,1115,311"/>
+<area shape="rect" id="node2" href="$_math_8h.html#a7db8068b6a61a7245fb4d405ab925851" title="Calculates the mean of the values." alt="" coords="644,208,724,235"/>
+<area shape="rect" id="node3" href="$_math_8h.html#ad238201486108ae58ef135348a535877" title="calculates the standard deviation of the values" alt="" coords="469,157,559,184"/>
+<area shape="rect" id="node9" href="$_math_8h.html#a4a192150ebf97d46883ef7a340ca76bb" title="Calculates the pearson of two Vectors." alt="" coords="486,309,542,336"/>
+<area shape="rect" id="node12" href="$class_rad_proc_data.html#ac5ce9641f939c3c88fce09cb4a541064" title="Converts n from W/m to KWh/m." alt="" coords="607,5,761,32"/>
+<area shape="rect" id="node13" href="$_math_8h.html#a915c800bfa96e00de43156d1127885eb" title="Calc the total of all values." alt="" coords="836,208,912,235"/>
+<area shape="rect" id="node14" href="$_client_8h.html#a3400e385adf2489936c6ada8f0a0ce8d" title="Organises the files in chronological order." alt="" coords="633,360,735,387"/>
+<area shape="rect" id="node15" href="$_i_o_functs_8h.html#ab447c05fc5948cf154df3fbe4f6f68e3" title="Reads the data from the files." alt="" coords="207,411,287,437"/>
+<area shape="rect" id="node16" href="$class_rad_proc_data.html#a8e3cac328879db704105ac5ec994ad1c" title=" " alt="" coords="809,461,939,488"/>
+<area shape="rect" id="node4" href="$_i_o_functs_8h.html#ae8c6ffd76a9200ee5e8f7ec567c1b22a" title="Handles the menu 1 option." alt="" coords="347,208,409,235"/>
+<area shape="rect" id="node7" href="$_i_o_functs_8h.html#a2548f0d140e5809572bd5f021f1d80c9" title="Handles the menu 2 option." alt="" coords="347,259,409,285"/>
+<area shape="rect" id="node8" href="$_i_o_functs_8h.html#a4e3930244011956f3a03893aa0743621" title="Handles the menu 4 option." alt="" coords="347,107,409,133"/>
+<area shape="rect" id="node5" href="$_client_8h.html#a8fc23d1438ba261026e5249f2e1131cc" title="USed for displaying and handling the menu options." alt="" coords="104,259,159,285"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,360,56,387"/>
+<area shape="rect" id="node10" href="$_i_o_functs_8h.html#ac82a7e1cf6b97b791cf349d7bab1d266" title="Organises the files in chronological order." alt="" coords="335,309,421,336"/>
+<area shape="rect" id="node11" href="$_i_o_functs_8h.html#a20329dec3f03680aac360f1723777178" title="Handles the menu 3 option." alt="" coords="216,309,277,336"/>
+</map>

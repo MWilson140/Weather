@@ -1,0 +1,188 @@
+\hypertarget{_i_o_functs_8h}{}\doxysection{Io\+Functs/\+I\+O\+Functs.h File Reference}
+\label{_i_o_functs_8h}\index{IoFuncts/IOFuncts.h@{IoFuncts/IOFuncts.h}}
+{\ttfamily \#include \char`\"{}../\+Wind\+Data/\+Wind\+Data.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../\+Time/\+Time.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../\+Date/\+Date.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../\+Vector/vector.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../\+Client/client.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../daily\+Data/daily\+Data.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../\+Proc\+Data/\+Air\+Proc\+Data.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../\+Proc\+Data/\+Proc\+Data.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../\+Proc\+Data/\+Rad\+Proc\+Data.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../\+Proc\+Data/\+Wind\+Proc\+Data.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$istream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::istream \& \mbox{\hyperlink{_i_o_functs_8h_a2464d66b2e3c9bf7b8afeae2a05a49c2}{operator$>$$>$}} (std\+::istream \&input, \mbox{\hyperlink{class_vector}{Vector}}$<$ string $>$ \&IF)
+\begin{DoxyCompactList}\small\item\em Method to get the format from the file. \end{DoxyCompactList}\item 
+std\+::istream \& \mbox{\hyperlink{_i_o_functs_8h_a249c895530d850337997efae3a47551f}{operator$>$$>$}} (std\+::istream \&input, \mbox{\hyperlink{daily_data_8h_aab496f0ec055c1bac059e5752f2d3f6b}{Raw\+Data}} \&WD)
+\begin{DoxyCompactList}\small\item\em Method to read the file into the vector. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_vector}{Vector}}$<$ std\+::string $>$ \& \mbox{\hyperlink{_i_o_functs_8h_a9e773de770b1a4da36999b719228b52d}{operator$>$$>$}} (\mbox{\hyperlink{class_vector}{Vector}}$<$ std\+::string $>$ \&in\+Data, \mbox{\hyperlink{daily_data_8h_aab496f0ec055c1bac059e5752f2d3f6b}{Raw\+Data}} \&WD)
+\begin{DoxyCompactList}\small\item\em Method to store into Raw\+Data vector from a string vector. \end{DoxyCompactList}\item 
+stringstream \& \mbox{\hyperlink{_i_o_functs_8h_ac8f2d7e014198e6c1ac1d3a0846f766a}{operator$>$$>$}} (stringstream \&sstr, \mbox{\hyperlink{class_date}{Date}} \&d)
+\begin{DoxyCompactList}\small\item\em Method to store into Raw\+Data vector from a string vector. \end{DoxyCompactList}\item 
+stringstream \& \mbox{\hyperlink{_i_o_functs_8h_aba132dca08fd5fce2910c41d35787185}{operator$>$$>$}} (stringstream \&sstr, \mbox{\hyperlink{class_time}{Time}} \&t)
+\begin{DoxyCompactList}\small\item\em Method to store into Raw\+Data vector from a string vector. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{_i_o_functs_8h_a25415264f5edc13772790a12f681fba6}{operator$<$$<$}} (std\+::ostream \&output, \mbox{\hyperlink{class_vector}{Vector}}$<$ \mbox{\hyperlink{class_proc_data}{Proc\+Data}} $\ast$ $>$ data)
+\begin{DoxyCompactList}\small\item\em Method to store into Raw\+Data vector from a string vector. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{_i_o_functs_8h_a14a958859522b360a65806ebeca7f069}{operator$<$$<$}} (std\+::ostream \&output, \mbox{\hyperlink{class_proc_data}{Proc\+Data}} $\ast$WD)
+\begin{DoxyCompactList}\small\item\em Method to store into Raw\+Data vector from a string vector. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{_i_o_functs_8h_a24c5ad1e134003bf8303a48f2500b47f}{operator$<$$<$}} (std\+::ostream \&output, \mbox{\hyperlink{class_wind_proc_data}{Wind\+Proc\+Data}} $\ast$Data)
+\begin{DoxyCompactList}\small\item\em Method to store into Raw\+Data vector from a string vector. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{_i_o_functs_8h_ae06caa0ea5c9f3254a03940105fbc1c5}{operator$<$$<$}} (std\+::ostream \&output, \mbox{\hyperlink{class_rad_proc_data}{Rad\+Proc\+Data}} $\ast$Data)
+\begin{DoxyCompactList}\small\item\em Method to store into Raw\+Data vector from a string vector. \end{DoxyCompactList}\item 
+std\+::ostream \& \mbox{\hyperlink{_i_o_functs_8h_a03b7cdb6224ef478cacee160db921021}{operator$<$$<$}} (std\+::ostream \&output, \mbox{\hyperlink{class_air_proc_data}{Air\+Proc\+Data}} $\ast$Data)
+\begin{DoxyCompactList}\small\item\em Method to store into Raw\+Data vector from a string vector. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_i_o_functs_8h_a7c19281d565d3539ea7b02ba55bd0a57}{User\+Month}} ()
+\begin{DoxyCompactList}\small\item\em Gets a month from the user. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_i_o_functs_8h_afc41b3ae1818f85f0204b458578e63cf}{User\+Year}} ()
+\begin{DoxyCompactList}\small\item\em Gets a year from the user. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_i_o_functs_8h_a2a0e843767aeea4f433a28b9c54f573a}{menu}} ()
+\begin{DoxyCompactList}\small\item\em Displays the menu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_i_o_functs_8h_a2a0e843767aeea4f433a28b9c54f573a}\label{_i_o_functs_8h_a2a0e843767aeea4f433a28b9c54f573a}} 
+\index{IOFuncts.h@{IOFuncts.h}!menu@{menu}}
+\index{menu@{menu}!IOFuncts.h@{IOFuncts.h}}
+\doxysubsubsection{\texorpdfstring{menu()}{menu()}}
+{\footnotesize\ttfamily void menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Displays the menu. 
+
+\mbox{\Hypertarget{_i_o_functs_8h_a03b7cdb6224ef478cacee160db921021}\label{_i_o_functs_8h_a03b7cdb6224ef478cacee160db921021}} 
+\index{IOFuncts.h@{IOFuncts.h}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!IOFuncts.h@{IOFuncts.h}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{output,  }\item[{\mbox{\hyperlink{class_air_proc_data}{Air\+Proc\+Data}} $\ast$}]{Data }\end{DoxyParamCaption})}
+
+
+
+Method to store into Raw\+Data vector from a string vector. 
+
+\mbox{\Hypertarget{_i_o_functs_8h_a14a958859522b360a65806ebeca7f069}\label{_i_o_functs_8h_a14a958859522b360a65806ebeca7f069}} 
+\index{IOFuncts.h@{IOFuncts.h}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!IOFuncts.h@{IOFuncts.h}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{output,  }\item[{\mbox{\hyperlink{class_proc_data}{Proc\+Data}} $\ast$}]{WD }\end{DoxyParamCaption})}
+
+
+
+Method to store into Raw\+Data vector from a string vector. 
+
+\mbox{\Hypertarget{_i_o_functs_8h_ae06caa0ea5c9f3254a03940105fbc1c5}\label{_i_o_functs_8h_ae06caa0ea5c9f3254a03940105fbc1c5}} 
+\index{IOFuncts.h@{IOFuncts.h}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!IOFuncts.h@{IOFuncts.h}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{output,  }\item[{\mbox{\hyperlink{class_rad_proc_data}{Rad\+Proc\+Data}} $\ast$}]{Data }\end{DoxyParamCaption})}
+
+
+
+Method to store into Raw\+Data vector from a string vector. 
+
+\mbox{\Hypertarget{_i_o_functs_8h_a25415264f5edc13772790a12f681fba6}\label{_i_o_functs_8h_a25415264f5edc13772790a12f681fba6}} 
+\index{IOFuncts.h@{IOFuncts.h}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!IOFuncts.h@{IOFuncts.h}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{output,  }\item[{\mbox{\hyperlink{class_vector}{Vector}}$<$ \mbox{\hyperlink{class_proc_data}{Proc\+Data}} $\ast$ $>$}]{data }\end{DoxyParamCaption})}
+
+
+
+Method to store into Raw\+Data vector from a string vector. 
+
+\mbox{\Hypertarget{_i_o_functs_8h_a24c5ad1e134003bf8303a48f2500b47f}\label{_i_o_functs_8h_a24c5ad1e134003bf8303a48f2500b47f}} 
+\index{IOFuncts.h@{IOFuncts.h}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!IOFuncts.h@{IOFuncts.h}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$()}{operator<<()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{output,  }\item[{\mbox{\hyperlink{class_wind_proc_data}{Wind\+Proc\+Data}} $\ast$}]{Data }\end{DoxyParamCaption})}
+
+
+
+Method to store into Raw\+Data vector from a string vector. 
+
+\mbox{\Hypertarget{_i_o_functs_8h_a249c895530d850337997efae3a47551f}\label{_i_o_functs_8h_a249c895530d850337997efae3a47551f}} 
+\index{IOFuncts.h@{IOFuncts.h}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!IOFuncts.h@{IOFuncts.h}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily std\+::istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{input,  }\item[{\mbox{\hyperlink{daily_data_8h_aab496f0ec055c1bac059e5752f2d3f6b}{Raw\+Data}} \&}]{WD }\end{DoxyParamCaption})}
+
+
+
+Method to read the file into the vector. 
+
+\mbox{\Hypertarget{_i_o_functs_8h_a2464d66b2e3c9bf7b8afeae2a05a49c2}\label{_i_o_functs_8h_a2464d66b2e3c9bf7b8afeae2a05a49c2}} 
+\index{IOFuncts.h@{IOFuncts.h}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!IOFuncts.h@{IOFuncts.h}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
+{\footnotesize\ttfamily std\+::istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{input,  }\item[{\mbox{\hyperlink{class_vector}{Vector}}$<$ string $>$ \&}]{IF }\end{DoxyParamCaption})}
+
+
+
+Method to get the format from the file. 
+
+\mbox{\Hypertarget{_i_o_functs_8h_ac8f2d7e014198e6c1ac1d3a0846f766a}\label{_i_o_functs_8h_ac8f2d7e014198e6c1ac1d3a0846f766a}} 
+\index{IOFuncts.h@{IOFuncts.h}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!IOFuncts.h@{IOFuncts.h}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
+{\footnotesize\ttfamily stringstream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{stringstream \&}]{sstr,  }\item[{\mbox{\hyperlink{class_date}{Date}} \&}]{d }\end{DoxyParamCaption})}
+
+
+
+Method to store into Raw\+Data vector from a string vector. 
+
+\mbox{\Hypertarget{_i_o_functs_8h_aba132dca08fd5fce2910c41d35787185}\label{_i_o_functs_8h_aba132dca08fd5fce2910c41d35787185}} 
+\index{IOFuncts.h@{IOFuncts.h}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!IOFuncts.h@{IOFuncts.h}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
+{\footnotesize\ttfamily stringstream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{stringstream \&}]{sstr,  }\item[{\mbox{\hyperlink{class_time}{Time}} \&}]{t }\end{DoxyParamCaption})}
+
+
+
+Method to store into Raw\+Data vector from a string vector. 
+
+\mbox{\Hypertarget{_i_o_functs_8h_a9e773de770b1a4da36999b719228b52d}\label{_i_o_functs_8h_a9e773de770b1a4da36999b719228b52d}} 
+\index{IOFuncts.h@{IOFuncts.h}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!IOFuncts.h@{IOFuncts.h}}
+\doxysubsubsection{\texorpdfstring{operator$>$$>$()}{operator>>()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_vector}{Vector}}$<$std\+::string$>$\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vector}{Vector}}$<$ std\+::string $>$ \&}]{in\+Data,  }\item[{\mbox{\hyperlink{daily_data_8h_aab496f0ec055c1bac059e5752f2d3f6b}{Raw\+Data}} \&}]{WD }\end{DoxyParamCaption})}
+
+
+
+Method to store into Raw\+Data vector from a string vector. 
+
+\mbox{\Hypertarget{_i_o_functs_8h_a7c19281d565d3539ea7b02ba55bd0a57}\label{_i_o_functs_8h_a7c19281d565d3539ea7b02ba55bd0a57}} 
+\index{IOFuncts.h@{IOFuncts.h}!UserMonth@{UserMonth}}
+\index{UserMonth@{UserMonth}!IOFuncts.h@{IOFuncts.h}}
+\doxysubsubsection{\texorpdfstring{UserMonth()}{UserMonth()}}
+{\footnotesize\ttfamily int User\+Month (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets a month from the user. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\begin{DoxyPostcond}{Postcondition}
+Must be a valid full name of the month 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{_i_o_functs_8h_afc41b3ae1818f85f0204b458578e63cf}\label{_i_o_functs_8h_afc41b3ae1818f85f0204b458578e63cf}} 
+\index{IOFuncts.h@{IOFuncts.h}!UserYear@{UserYear}}
+\index{UserYear@{UserYear}!IOFuncts.h@{IOFuncts.h}}
+\doxysubsubsection{\texorpdfstring{UserYear()}{UserYear()}}
+{\footnotesize\ttfamily int User\+Year (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets a year from the user. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}

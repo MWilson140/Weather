@@ -1,0 +1,6 @@
+<map id="Date::SetYear" name="Date::SetYear">
+<area shape="rect" id="node1" title="Setter for year." alt="" coords="5,31,109,57"/>
+<area shape="rect" id="node2" href="$class_date.html#a23e3416bb4553b2b556b6497cd9dc946" title="Checks if the day input is valid." alt="" coords="159,5,277,32"/>
+<area shape="rect" id="node4" href="$class_date.html#aa59d1d48ec7eae742aca9a9a62ee6ffc" title="Checks if the year input is valid." alt="" coords="157,56,279,83"/>
+<area shape="rect" id="node3" href="$class_date.html#a85789fefca227bcd9188b8358900b289" title="Checks if the year is a leap year." alt="" coords="327,5,439,32"/>
+</map>

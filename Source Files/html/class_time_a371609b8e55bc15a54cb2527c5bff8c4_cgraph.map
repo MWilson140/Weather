@@ -1,0 +1,5 @@
+<map id="Time::Time" name="Time::Time">
+<area shape="rect" id="node1" title="Construtor with paramaters." alt="" coords="5,31,92,57"/>
+<area shape="rect" id="node2" href="$class_time.html#af552d040cd09d7878f4c9af79fdbc637" title="Checks the hour input." alt="" coords="146,5,269,32"/>
+<area shape="rect" id="node3" href="$class_time.html#a78d87c653783c626c31dd0919c49d03c" title="Checks the minute input." alt="" coords="140,56,275,83"/>
+</map>

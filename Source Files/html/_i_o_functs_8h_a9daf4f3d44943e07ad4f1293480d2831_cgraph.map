@@ -1,0 +1,12 @@
+<map id="Menu2" name="Menu2">
+<area shape="rect" id="node1" title="Handles the menu 2 option." alt="" coords="5,157,67,184"/>
+<area shape="rect" id="node2" href="$_math_8h.html#a7db8068b6a61a7245fb4d405ab925851" title="Calculates the mean of the values." alt="" coords="343,56,423,83"/>
+<area shape="rect" id="node5" href="$_math_8h.html#ad238201486108ae58ef135348a535877" title="calculates the standard deviation of the values" alt="" coords="149,107,238,133"/>
+<area shape="rect" id="node6" href="$class_n_d_c.html#a478e7b6c86b771c3763fd3b3a6098951" title="Checks if the map is empty Helper method for the map." alt="" coords="128,157,259,184"/>
+<area shape="rect" id="node7" href="$class_vector.html#ac1bf38c2a42e02f6ff9ca99417eadff2" title="Empties the array." alt="" coords="140,208,247,235"/>
+<area shape="rect" id="node8" href="$class_air_proc_data.html#aa53f782b58efce14c92e90242b439a9f" title="Fills the contained vector with data." alt="" coords="115,259,272,285"/>
+<area shape="rect" id="node3" href="$_math_8h.html#a915c800bfa96e00de43156d1127885eb" title="Calc the total of all values." alt="" coords="495,5,571,32"/>
+<area shape="rect" id="node4" href="$class_vector.html#a1baa1bf2addfca8a6ad84b8e6cc3c06e" title="Getter for length." alt="" coords="619,56,747,83"/>
+<area shape="rect" id="node9" href="$class_n_d_c.html#a0e3a9c66aa45395ca9591ae3d4049451" title=" " alt="" coords="333,233,433,260"/>
+<area shape="rect" id="node10" href="$class_vector.html#a90b87fdde0904a3c5ef4c97c74c562d4" title="Adds to the vector." alt="" coords="320,284,447,311"/>
+</map>

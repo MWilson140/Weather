@@ -1,0 +1,76 @@
+\hypertarget{_data_8h}{}\doxysection{Data/\+Data.h File Reference}
+\label{_data_8h}\index{Data/Data.h@{Data/Data.h}}
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include \char`\"{}../\+Vector/\+Vector.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$class T $>$ }\\T \mbox{\hyperlink{_data_8h_a010edb5f797202daae0a20a9d9ddd72e}{Calc\+Total}} (\mbox{\hyperlink{class_vector}{Vector}}$<$ T $>$ \&data)
+\begin{DoxyCompactList}\small\item\em Calc the total of all values. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\float \mbox{\hyperlink{_data_8h_a5ddfd5d754381d0fa795d9d7df2776a9}{Calc\+Mean}} (T sum, int total)
+\begin{DoxyCompactList}\small\item\em Calculates the mean of the values. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\float \mbox{\hyperlink{_data_8h_ab3572716474b82491c9a618892151821}{Calc\+Std\+Dev}} (\mbox{\hyperlink{class_vector}{Vector}}$<$ T $>$ \&All, float Mean)
+\begin{DoxyCompactList}\small\item\em calculates the standard deviation of the values \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_data_8h_a5ddfd5d754381d0fa795d9d7df2776a9}\label{_data_8h_a5ddfd5d754381d0fa795d9d7df2776a9}} 
+\index{Data.h@{Data.h}!CalcMean@{CalcMean}}
+\index{CalcMean@{CalcMean}!Data.h@{Data.h}}
+\doxysubsubsection{\texorpdfstring{CalcMean()}{CalcMean()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+float Calc\+Mean (\begin{DoxyParamCaption}\item[{T}]{sum,  }\item[{int}]{total }\end{DoxyParamCaption})}
+
+
+
+Calculates the mean of the values. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em T} & -\/ sum of all values. int -\/ total, amount of values. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+float -\/ the mean of the values 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_data_8h_ab3572716474b82491c9a618892151821}\label{_data_8h_ab3572716474b82491c9a618892151821}} 
+\index{Data.h@{Data.h}!CalcStdDev@{CalcStdDev}}
+\index{CalcStdDev@{CalcStdDev}!Data.h@{Data.h}}
+\doxysubsubsection{\texorpdfstring{CalcStdDev()}{CalcStdDev()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+float Calc\+Std\+Dev (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vector}{Vector}}$<$ T $>$ \&}]{All,  }\item[{float}]{Mean }\end{DoxyParamCaption})}
+
+
+
+calculates the standard deviation of the values 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_vector}{Vector}}} & of type T, float -\/ mean \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+float -\/ the standard deviation 
+\end{DoxyReturn}
+\begin{DoxyPostcond}{Postcondition}
+if the value is less than 0.\+1 returns 0 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{_data_8h_a010edb5f797202daae0a20a9d9ddd72e}\label{_data_8h_a010edb5f797202daae0a20a9d9ddd72e}} 
+\index{Data.h@{Data.h}!CalcTotal@{CalcTotal}}
+\index{CalcTotal@{CalcTotal}!Data.h@{Data.h}}
+\doxysubsubsection{\texorpdfstring{CalcTotal()}{CalcTotal()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T Calc\+Total (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vector}{Vector}}$<$ T $>$ \&}]{data }\end{DoxyParamCaption})}
+
+
+
+Calc the total of all values. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_vector}{Vector}}} & of t \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+total sum 
+\end{DoxyReturn}

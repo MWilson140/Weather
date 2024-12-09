@@ -1,0 +1,5 @@
+<map id="InputConfig" name="InputConfig">
+<area shape="rect" id="node1" title=" " alt="" coords="31,608,122,700"/>
+<area shape="rect" id="node2" href="$class_vector.html" title=" " alt="" coords="5,307,148,545"/>
+<area shape="rect" id="node3" href="$class_vector.html" title="Minimal vector class. wraps the STL vector inside." alt="" coords="24,5,129,244"/>
+</map>

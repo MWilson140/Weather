@@ -1,0 +1,4 @@
+<map id="WindProcData" name="WindProcData">
+<area shape="rect" id="node1" title="Concrete class for wind data." alt="" coords="5,160,140,281"/>
+<area shape="rect" id="node2" href="$class_proc_data.html" title="abstract class for proccessing data and storing it" alt="" coords="21,5,125,112"/>
+</map>

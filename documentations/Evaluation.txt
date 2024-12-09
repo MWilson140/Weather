@@ -1,0 +1,53 @@
+Declaration
+Assignment File was scanned with Malware Bytes version 4.5.29.268
+
+Assumptions
+The -999 values inside the data files are invalid inputs
+There will be duplicated data
+All values of solar radiation will be used - the value is still converted to KWh/m
+	If not the Pearson function will almost never work involving solar radiation
+
+
+What does not work
+Under specific situations, data during the read process is lost.
+Situation 1: File one (2009) contains partial data from the next year (2010). File two(2010) contains partial data from the previous year (2009). This is not a problem unless file two contains the previous year.
+what happens: All of 2009 is read from file one and saved, the partial 2010 is read from file 1 and the data struct is kept for more storage. Once file two opens, the program registers that the year is different that the previous, saves the current data (2010), then reads 2009. Once 2009 is done since the BST does not accept duplicates, it will be unable to store the rest of 2010 data.
+
+Situation 2: A file contains a year out of place. File (2010) contains a 2015 date.
+what happens: Partial data of 2010 is read until the out of place date then stored. The out of place date is read then stored because the year has changed. The remaining 2010 data is unable to be stored, along with all of 2015 but that one data point.
+
+Solutions: If the new year is less than the previous, ignore all the data coming in until the years match again.
+This would work for situation 1, but not the second. The struct will stay open waiting for 2015 data until the program returns to 2015, ignoring all the data from 2010-2014
+
+Allow duplicate data into the bst and merge the data once all the desired data is collected.
+This will render my implementation of the search function of the bst useless, without knowing if there is more than one node to be retrieved. Relying entirely on in order traversal for data retrieval.  
+
+Allow modification of data inside the BST.
+This allow a solution to the above problems, and will not cause problems with the BST since the data is keyed, however in any other scenario the values inside the bst are open for modification if they are not keyed.
+Keyed BST would fix this problem, but it is mentioned in the assignment sheet that the bst must remain function with lab 9 programs.
+
+If two files has the same start date, the second is not read
+why: This is due to how I am organising the files in chronological order before reading. Taking the first entry then storing in a map using the MetaData (date and time), along with a string of the name. Since I am using a map, it will not allow duplicates. 
+solutions: Use multimap instead - will cause duplicate files to be read, not a problem since neither the map or bst used for storage of data accepts duplicates
+
+If a files first MetaData is invalid, the file is not read
+why: similar to above, if there is a problem reading the metadata, it cannot be stored into the map.
+Solutions: if there is an error reading the metadata, use the next line, until there is no error in reading.
+
+If the Date is missing from the csv, an error is not thrown.
+why: this is due to how I am storing the date and time, getting the string, then setting using the string and not integers. The missing date instead uses the time variable to set all values inside the class.
+Solutions: split the string first, then set.
+
+What works
+BST functions
+	Search
+	In order Trav
+	Data Retrieval
+Error catching
+Math functions
+Not storing duplicate data
+Not performing calculations using invalid data
+Deleting and reloading BST
+All menus
+
+ 

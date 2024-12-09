@@ -1,0 +1,10 @@
+<map id="Date::SetUsingString" name="Date::SetUsingString">
+<area shape="rect" id="node1" title="Set Year, Month and day using a string." alt="" coords="5,56,149,83"/>
+<area shape="rect" id="node2" href="$class_date.html#a24e81ff2529e1ed43d96d53af425d3bf" title="Setter for day." alt="" coords="204,56,304,83"/>
+<area shape="rect" id="node5" href="$class_date.html#a0bee996bf6c82e3b4de45c146a25ad91" title=" " alt="" coords="197,5,311,32"/>
+<area shape="rect" id="node7" href="$class_date.html#a35b9744b449d072899f05e253c2a2673" title="Setter for year." alt="" coords="202,107,306,133"/>
+<area shape="rect" id="node3" href="$class_date.html#a23e3416bb4553b2b556b6497cd9dc946" title="Checks if the day input is valid." alt="" coords="365,56,483,83"/>
+<area shape="rect" id="node4" href="$class_date.html#a85789fefca227bcd9188b8358900b289" title="Checks if the year is a leap year." alt="" coords="537,56,649,83"/>
+<area shape="rect" id="node6" href="$class_date.html#ae69c4eed9c61f7f119d32e812ea5863d" title="Checks if the month input." alt="" coords="359,5,489,32"/>
+<area shape="rect" id="node8" href="$class_date.html#aa59d1d48ec7eae742aca9a9a62ee6ffc" title="Checks if the year input is valid." alt="" coords="363,107,485,133"/>
+</map>

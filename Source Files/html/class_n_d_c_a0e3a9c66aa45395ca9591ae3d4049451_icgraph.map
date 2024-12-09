@@ -1,0 +1,14 @@
+<map id="NDC::getMap" name="NDC::getMap">
+<area shape="rect" id="node1" title="getter for the Map" alt="" coords="604,107,704,133"/>
+<area shape="rect" id="node2" href="$class_n_d_c.html#aa1e65f87d728b88e1b66b192e5ec481f" title=" " alt="" coords="420,5,521,32"/>
+<area shape="rect" id="node6" href="$_i_o_functs_8h.html#a20329dec3f03680aac360f1723777178" title="Handles the menu 3 option." alt="" coords="241,56,303,83"/>
+<area shape="rect" id="node7" href="$class_rad_proc_data.html#a6e089a2d7a9fbd8f3f4d5aa987eaea5b" title="Fills the contained vector with data." alt="" coords="389,157,553,184"/>
+<area shape="rect" id="node9" href="$class_wind_proc_data.html#a69d669f1d5cddec22a0954dffdf7c1c0" title="Fills the contained vector with data." alt="" coords="385,107,556,133"/>
+<area shape="rect" id="node11" href="$class_air_proc_data.html#aa53f782b58efce14c92e90242b439a9f" title="Fills the contained vector with data." alt="" coords="392,208,549,235"/>
+<area shape="rect" id="node3" href="$class_collector.html#ab291d2e648fbc91abbe541fc9b9358e9" title=" " alt="" coords="207,5,337,32"/>
+<area shape="rect" id="node4" href="$_client_8h.html#a8fc23d1438ba261026e5249f2e1131cc" title="USed for displaying and handling the menu options." alt="" coords="104,107,159,133"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,107,56,133"/>
+<area shape="rect" id="node8" href="$_i_o_functs_8h.html#a4e3930244011956f3a03893aa0743621" title="Handles the menu 4 option." alt="" coords="241,157,303,184"/>
+<area shape="rect" id="node10" href="$_i_o_functs_8h.html#ae8c6ffd76a9200ee5e8f7ec567c1b22a" title="Handles the menu 1 option." alt="" coords="241,107,303,133"/>
+<area shape="rect" id="node12" href="$_i_o_functs_8h.html#a2548f0d140e5809572bd5f021f1d80c9" title="Handles the menu 2 option." alt="" coords="241,208,303,235"/>
+</map>

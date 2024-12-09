@@ -1,0 +1,6 @@
+<map id="RadProcData" name="RadProcData">
+<area shape="rect" id="node1" title="Concrete class for Solar Radiation data." alt="" coords="5,764,132,915"/>
+<area shape="rect" id="node2" href="$class_proc_data.html" title="abstract class for proccessing data and storing it" alt="" coords="17,608,121,715"/>
+<area shape="rect" id="node3" href="$class_vector.html" title=" " alt="" coords="15,307,123,545"/>
+<area shape="rect" id="node4" href="$class_vector.html" title="Minimal vector class. wraps the STL vector inside." alt="" coords="16,5,121,244"/>
+</map>

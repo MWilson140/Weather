@@ -1,0 +1,16 @@
+<map id="operator&gt;&gt;" name="operator&gt;&gt;">
+<area shape="rect" id="node1" title="Reads the data from the files." alt="" coords="5,120,91,147"/>
+<area shape="rect" id="node2" href="$class_date.html#a7d1ccbf1cd11333aa5e3d30bfe351617" title="Set Year, Month and day using a string." alt="" coords="139,81,283,108"/>
+<area shape="rect" id="node10" href="$class_time.html#ab4dc6b8c7e10bed74c221e4cce92a30f" title="Sets using a string input." alt="" coords="139,157,284,184"/>
+<area shape="rect" id="node3" href="$class_date.html#a24e81ff2529e1ed43d96d53af425d3bf" title="Setter for day." alt="" coords="341,56,441,83"/>
+<area shape="rect" id="node6" href="$class_date.html#a0bee996bf6c82e3b4de45c146a25ad91" title=" " alt="" coords="334,5,447,32"/>
+<area shape="rect" id="node8" href="$class_date.html#a35b9744b449d072899f05e253c2a2673" title="Setter for year." alt="" coords="339,107,443,133"/>
+<area shape="rect" id="node4" href="$class_date.html#a23e3416bb4553b2b556b6497cd9dc946" title="Checks if the day input is valid." alt="" coords="506,56,623,83"/>
+<area shape="rect" id="node5" href="$class_date.html#a85789fefca227bcd9188b8358900b289" title="Checks if the year is a leap year." alt="" coords="680,56,792,83"/>
+<area shape="rect" id="node7" href="$class_date.html#ae69c4eed9c61f7f119d32e812ea5863d" title="Checks if the month input." alt="" coords="499,5,630,32"/>
+<area shape="rect" id="node9" href="$class_date.html#aa59d1d48ec7eae742aca9a9a62ee6ffc" title="Checks if the year input is valid." alt="" coords="504,107,625,133"/>
+<area shape="rect" id="node11" href="$class_time.html#a700114d9d8fc19586834a55f4b69d27c" title="hour setter" alt="" coords="338,208,443,235"/>
+<area shape="rect" id="node13" href="$class_time.html#a32b6437f5bfada6a3afea94bfd2356eb" title="Minute setter." alt="" coords="332,157,449,184"/>
+<area shape="rect" id="node12" href="$class_time.html#af552d040cd09d7878f4c9af79fdbc637" title="Checks the hour input." alt="" coords="503,208,626,235"/>
+<area shape="rect" id="node14" href="$class_time.html#a78d87c653783c626c31dd0919c49d03c" title="Checks the minute input." alt="" coords="497,157,632,184"/>
+</map>

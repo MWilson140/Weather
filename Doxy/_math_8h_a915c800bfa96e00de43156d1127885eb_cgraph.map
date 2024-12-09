@@ -1,0 +1,4 @@
+<map id="CalcTotal" name="CalcTotal">
+<area shape="rect" id="node1" title="Calc the total of all values." alt="" coords="5,5,81,32"/>
+<area shape="rect" id="node2" href="$class_vector.html#a1baa1bf2addfca8a6ad84b8e6cc3c06e" title="Getter for length." alt="" coords="129,5,257,32"/>
+</map>

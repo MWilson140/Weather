@@ -1,0 +1,56 @@
+\hypertarget{_client_8h}{}\doxysection{Client/\+Client.h File Reference}
+\label{_client_8h}\index{Client/Client.h@{Client/Client.h}}
+{\ttfamily \#include \char`\"{}../\+Vector/\+Vector.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../wind\+Data/winddata.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../daily\+Data/daily\+Data.\+h\char`\"{}}\newline
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_input_config}{Input\+Config}}
+\begin{DoxyCompactList}\small\item\em stores the Key for input and desired input order \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_client_8h_a90af403a3f694d9b90228841e80b4e3d}{Month\+To\+Int}} (string month)
+\begin{DoxyCompactList}\small\item\em Converts month string to its int value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const int \mbox{\hyperlink{_client_8h_a3f8058e27316c199692cd9383fce7b2e}{num\+Inputs}} = 18
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_client_8h_a90af403a3f694d9b90228841e80b4e3d}\label{_client_8h_a90af403a3f694d9b90228841e80b4e3d}} 
+\index{Client.h@{Client.h}!MonthToInt@{MonthToInt}}
+\index{MonthToInt@{MonthToInt}!Client.h@{Client.h}}
+\doxysubsubsection{\texorpdfstring{MonthToInt()}{MonthToInt()}}
+{\footnotesize\ttfamily int Month\+To\+Int (\begin{DoxyParamCaption}\item[{string}]{month }\end{DoxyParamCaption})}
+
+
+
+Converts month string to its int value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & -\/ month \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int -\/ the int value of the month 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Month must be valid 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+throws if month is not valid 
+\end{DoxyPostcond}
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{_client_8h_a3f8058e27316c199692cd9383fce7b2e}\label{_client_8h_a3f8058e27316c199692cd9383fce7b2e}} 
+\index{Client.h@{Client.h}!numInputs@{numInputs}}
+\index{numInputs@{numInputs}!Client.h@{Client.h}}
+\doxysubsubsection{\texorpdfstring{numInputs}{numInputs}}
+{\footnotesize\ttfamily const int num\+Inputs = 18}
+

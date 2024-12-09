@@ -1,0 +1,12 @@
+<map id="CalcMean" name="CalcMean">
+<area shape="rect" id="node1" title="Calculates the mean of the values." alt="" coords="588,56,668,83"/>
+<area shape="rect" id="node2" href="$_math_8h.html#ad238201486108ae58ef135348a535877" title="calculates the standard deviation of the values" alt="" coords="451,56,540,83"/>
+<area shape="rect" id="node3" href="$_i_o_functs_8h.html#ae8c6ffd76a9200ee5e8f7ec567c1b22a" title="Handles the menu 1 option." alt="" coords="329,5,390,32"/>
+<area shape="rect" id="node6" href="$_i_o_functs_8h.html#a2548f0d140e5809572bd5f021f1d80c9" title="Handles the menu 2 option." alt="" coords="329,56,390,83"/>
+<area shape="rect" id="node7" href="$_i_o_functs_8h.html#a4e3930244011956f3a03893aa0743621" title="Handles the menu 4 option." alt="" coords="329,107,390,133"/>
+<area shape="rect" id="node8" href="$_math_8h.html#a4a192150ebf97d46883ef7a340ca76bb" title="Calculates the pearson of two Vectors." alt="" coords="467,157,523,184"/>
+<area shape="rect" id="node4" href="$_client_8h.html#a8fc23d1438ba261026e5249f2e1131cc" title="USed for displaying and handling the menu options." alt="" coords="104,81,159,108"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,81,56,108"/>
+<area shape="rect" id="node9" href="$_i_o_functs_8h.html#ac82a7e1cf6b97b791cf349d7bab1d266" title="Organises the files in chronological order." alt="" coords="316,157,403,184"/>
+<area shape="rect" id="node10" href="$_i_o_functs_8h.html#a20329dec3f03680aac360f1723777178" title="Handles the menu 3 option." alt="" coords="207,157,268,184"/>
+</map>

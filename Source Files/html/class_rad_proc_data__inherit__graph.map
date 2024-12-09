@@ -1,0 +1,4 @@
+<map id="RadProcData" name="RadProcData">
+<area shape="rect" id="node1" title="Concrete class for Solar Radiation data." alt="" coords="5,160,132,311"/>
+<area shape="rect" id="node2" href="$class_proc_data.html" title="abstract class for proccessing data and storing it" alt="" coords="17,5,121,112"/>
+</map>

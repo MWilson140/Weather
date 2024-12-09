@@ -1,0 +1,6 @@
+<map id="ProcData" name="ProcData">
+<area shape="rect" id="node1" title="abstract class for proccessing data and storing it" alt="" coords="161,5,265,112"/>
+<area shape="rect" id="node2" href="$class_air_proc_data.html" title="Concrete class for Ambient Air Temperature." alt="" coords="5,175,125,296"/>
+<area shape="rect" id="node3" href="$class_rad_proc_data.html" title="Concrete class for Solar Radiation data." alt="" coords="150,160,277,311"/>
+<area shape="rect" id="node4" href="$class_wind_proc_data.html" title="Concrete class for wind data." alt="" coords="301,175,435,296"/>
+</map>

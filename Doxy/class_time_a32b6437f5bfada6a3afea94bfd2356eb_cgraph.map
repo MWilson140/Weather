@@ -1,0 +1,4 @@
+<map id="Time::SetMinute" name="Time::SetMinute">
+<area shape="rect" id="node1" title="Minute setter." alt="" coords="5,5,123,32"/>
+<area shape="rect" id="node2" href="$class_time.html#a78d87c653783c626c31dd0919c49d03c" title="Checks the minute input." alt="" coords="171,5,305,32"/>
+</map>

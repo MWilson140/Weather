@@ -1,0 +1,6 @@
+<map id="Date::SetMonth" name="Date::SetMonth">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,119,57"/>
+<area shape="rect" id="node2" href="$class_date.html#a23e3416bb4553b2b556b6497cd9dc946" title="Checks if the day input is valid." alt="" coords="173,5,291,32"/>
+<area shape="rect" id="node4" href="$class_date.html#ae69c4eed9c61f7f119d32e812ea5863d" title="Checks if the month input." alt="" coords="167,56,297,83"/>
+<area shape="rect" id="node3" href="$class_date.html#a85789fefca227bcd9188b8358900b289" title="Checks if the year is a leap year." alt="" coords="345,5,457,32"/>
+</map>
